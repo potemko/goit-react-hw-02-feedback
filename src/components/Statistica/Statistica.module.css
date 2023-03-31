@@ -1,0 +1,36 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-shadow: 2px 2px 4px #000000;
+  background: linear-gradient(
+    45deg,
+    #f72585,
+    #b5179e,
+    #7209b7,
+    #560bad,
+    #480ca8,
+    #3a0ca3
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.statistica {
+  position: absolute;
+  width: 100%;
+  background-color: antiquewhite;
+}
