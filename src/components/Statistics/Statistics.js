@@ -1,7 +1,7 @@
 import React from 'react';
-import css from '../Statistica/Statistica.module.css';
+import css from '../Statistics/Statistics.module.css';
 
-const Statistica = ({ upGood, upNeutral, upBad, upTotal, upInterest }) => (
+const Statistics = ({ upGood, upNeutral, upBad, upTotal, upInterest }) => (
   <div className={css.statistica}>
     <p className={css.title}>Statictic</p>
     <ul>
@@ -23,4 +23,4 @@ const Statistica = ({ upGood, upNeutral, upBad, upTotal, upInterest }) => (
     </ul>
   </div>
 );
-export default Statistica;
+export default Statistics;
